@@ -1,0 +1,25 @@
+
+$font-family : 'montheavy', sans-serif;
+$font-family2 : 'mont', sans-serif;
+
+$basic-size : 1rem;
+
+
+@mixin transition($property) {
+	-webkit-transition: $property;
+	-ms-transition: $property;
+	transition: $property;
+}
+
+@mixin transform($property) {
+	-webkit-transform: $property;
+	-ms-transform: $property;
+	transform: $property;
+}
+
+
+@mixin radius($property) {
+	-webkit-border-radius: $property;
+	-ms-border-radius: $property;
+	border-radius: $property;
+}

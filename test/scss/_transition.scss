@@ -1,0 +1,11 @@
+@import 'base';
+
+nav ul li a,
+nav,
+nav ul li a:before,
+.menu-btn a span,
+.lnk-default,
+.about-us:before,
+.blog-section .blog-post .post-img > img {
+	@include transition(all 0.4s ease-in-out);
+}

@@ -1,0 +1,24 @@
+
+/* ==========================================================================
+                                FONTS
+============================================================================= */
+
+
+
+
+@font-face {
+    font-family: 'montheavy';
+    src: url('../fonts/mont-heavydemo.woff2') format('woff2'),
+         url('../fonts/mont-heavydemo.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url('../fonts/mont-bold.woff2') format('woff2'),
+         url('../fonts/mont-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}

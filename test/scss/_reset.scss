@@ -1,0 +1,107 @@
+
+@import 'bootstrap.min.css';
+@import 'base.scss';
+
+
+
+/* ==========================================================================
+                                RESET CSS
+============================================================================= */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+body {
+  font-family: $font-family;
+  color: #aeb4b6;
+  font-size: $basic-size;
+  font-weight: 400; 
+  overflow-x: hidden;
+  position: relative;
+}
+body.no-scroll {
+  overflow-y: hidden;
+}
+button {
+  cursor: pointer;
+  border:0;
+}
+button:focus {
+  outline: none;
+}
+img {
+  display: inline-block;
+  margin-bottom: -6px;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none; 
+}
+
+
+.container {
+  max-width: 1275px;
+}
+ul {
+  padding: 0;
+  margin: 0; 
+}
+
+li {
+  list-style: none; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family; 
+  font-weight: 600;
+}
+
+p {
+  font-size: $basic-size;
+  line-height: 2rem;
+  color:#43464b;
+}
+
+section {
+  display: block;
+  position: relative;
+}
+select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; 
+}
+
+.clearfix {
+  clear: both;
+}
